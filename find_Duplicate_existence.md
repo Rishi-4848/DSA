@@ -1,3 +1,5 @@
+
+#  checking duplicate existence
 ```
 var containsDuplicate = function(nums) {
     
@@ -6,9 +8,9 @@ var containsDuplicate = function(nums) {
     // for(let index=0;index<sortedNums.length;index++){
 
     //     if(sortedNums[index]==sortedNums[index+1]){
-    //         return true
-    //     }
-    // }
+           return true
+     //   }
+   //  }
   
   let numsSet = new Set()
 
