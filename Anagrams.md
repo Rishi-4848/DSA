@@ -1,3 +1,4 @@
+```
 var isAnagram = function(s, t) {
      
      let map1 = new Map()
@@ -35,3 +36,5 @@ var isAnagram = function(s, t) {
 
      return true
 };
+
+```
