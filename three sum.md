@@ -30,7 +30,7 @@ var threeSum = function(nums) {
 
                 left++
                 right--
-            }else if(sum>0){
+            }else if(sum<0){
                 left++
             }else{
                 right--
